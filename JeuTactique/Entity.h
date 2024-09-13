@@ -18,7 +18,7 @@ public:
     int GetY() const;
     int GetHp() const;
     int GetAttackPower() const;
-    void TakeDamage(int damage);
+    virtual void TakeDamage(int damage);
     void SetHp(int newHp);
     void SetAttackPower(int newAttackPower);
 };

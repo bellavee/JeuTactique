@@ -1,9 +1,10 @@
 ﻿#pragma once
 #include "Monster.h"
 
-class Golem : public Monster {
+class Reaper : public Monster {
 public:
-    Golem(int x, int y);
+    Reaper(int x, int y);
     void SpecialAbility() override;
+    void Move(int dx, int dy) override;
     void Attack(Entity& target) override;
 };

@@ -160,6 +160,8 @@
     <ClCompile Include="Hero.cpp" />
     <ClCompile Include="JeuTactique.cpp" />
     <ClCompile Include="Monster.cpp" />
+    <ClCompile Include="Reaper.cpp" />
+    <ClCompile Include="Spectre.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Entity.h" />
@@ -167,6 +169,8 @@
     <ClInclude Include="Golem.h" />
     <ClInclude Include="Hero.h" />
     <ClInclude Include="Monster.h" />
+    <ClInclude Include="Reaper.h" />
+    <ClInclude Include="Spectre.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
