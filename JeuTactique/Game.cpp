@@ -130,5 +130,6 @@ Monster* Game::GetAdjacentMonster() const {
 }
 
 bool Game::IsGameOver() const {
-    return !hero.IsAlive() || monsters.empty();
+    return false;
+    // return !hero.IsAlive() || monsters.empty();
 }
